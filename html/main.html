@@ -9,7 +9,7 @@
     <body>
         <a href="file:///Users/sohamsasan/Desktop/GitHub/Website Test/html/vsc.html">*BETA* Back To Main</a>
         <h1>
-            <u>Projekt Website (Windows version)</u> 
+            <u>Projekt Website (macOS version)</u> 
         </h1>
         <h2>
             Written By Soham Sasan (on 2025/03/01)
@@ -53,7 +53,7 @@
                 <li>
                     Curve-Fitting App (beta) (Designed with Python & Streamlit, this lightweight application will curve fit any data you give it.)
                     <p>
-                        <a href="../python/Streamlit App.py">Curve-Fitting App</a>
+                        <a href="../python/streamlit.py">Curve-Fitting App</a>
                     </p>
                 </li>
                 <li>
@@ -71,33 +71,33 @@
             </p>
         </h5>
         <script type="text/javascript">
-        //     document.addEventListener("DOMContentLoaded", function () {
-        //     var storedName = localStorage.getItem("userName");
+             document.addEventListener("DOMContentLoaded", function () {
+             var storedName = localStorage.getItem("userName");
 
-        //     if (!storedName) {
-        //     var button = document.createElement("button");
-        //     button.textContent = "Enter your name";
-        //     document.body.appendChild(button);
+             if (!storedName) {
+             var button = document.createElement("button");
+             button.textContent = "Enter your name";
+             document.body.appendChild(button);
 
-        //     button.addEventListener("click", function () {
-        //         var input = prompt("Enter your name: ");
-        //         if (input) {
-        //         localStorage.setItem("userName", input);
-        //         storedName = input;
+             button.addEventListener("click", function () {
+                 var input = prompt("Enter your name: ");
+                 if (input) {
+                 localStorage.setItem("userName", input);
+                 storedName = input;
 
-        //         // Update the message after name is entered
-        //         var h3Element = document.getElementById("userMessage");
-        //         h3Element.innerHTML = "Hey there, " + storedName + "! Welcome to the main website. The contents of this site include:";
+                 // Update the message after name is entered
+                 var h3Element = document.getElementById("userMessage");
+                 h3Element.innerHTML = "Hey there, " + storedName + "! Welcome to the main website. The contents of this site include:";
 
-        //         // Remove the button after the name is set
-        //         button.remove();
-        //         }
-        //     });
-        //     } else {
-        //     var h3Element = document.getElementById("userMessage");
-        //     h3Element.innerHTML = "Hey there, " + storedName + "! Welcome to the main website. The contents of this site include:";
-        //     }
-        // });
+                 // Remove the button after the name is set
+                 button.remove();
+                 }
+             });
+             } else {
+             var h3Element = document.getElementById("userMessage");
+             h3Element.innerHTML = "Hey there, " + storedName + "! Welcome to the main website. The contents of this site include:";
+             }
+         });
 
         </script>
 
